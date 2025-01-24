@@ -929,6 +929,11 @@ table.insert(data.raw["technology"]["rocket-silo"].effects, {
     recipe = "satellite"
 })
 
+table.insert(data.raw["technology"]["rocket-silo"].effects, {
+    type = "unlock-recipe",
+    recipe = "ei_rocket__nauvis-orbit"
+})
+
 data.raw["technology"]["electronics"].effects = {
     {
         type = "unlock-recipe",
